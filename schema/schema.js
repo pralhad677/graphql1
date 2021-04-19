@@ -71,6 +71,7 @@ const RootQuery = new GraphQLObjectType({
                 .catch(console.log)
             }
         },
+        
         company:{
             type:CompanyType,
             args:{id:{type:GraphQLInt}},
